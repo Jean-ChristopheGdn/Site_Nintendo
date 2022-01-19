@@ -1,3 +1,13 @@
-h1{
-    background-color: red;
+
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+/* Nav bar right */
+.container-nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
