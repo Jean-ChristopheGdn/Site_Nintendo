@@ -8,11 +8,13 @@
 
     /* --------------------------Nav bar ----------------------------- */
 nav {
+    position: fixed;
     background-color: #e60012;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 10vh;
+    margin-top: -10vh;
 }
 .logo{
     display: flex;
@@ -49,7 +51,7 @@ nav {
     flex-direction: column;
     align-items: center;
 }
-/* Nav bar right */
+/*------------------ Nav bar right buttons ------------------------*/
 .container-nav-right{
     width: 50%;
     display: flex;
@@ -72,12 +74,23 @@ a:hover{
     text-decoration: underline;
 }
 
+/* ----------- Content --------------- */
+.content{
+    margin-top: 10vh;
+    margin-left: 7%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+}
+
 /* ------------------Left aside -----------------------*/
 
 .left-aside {
+    position: fixed;
     width: 7%;
     height: 90vh;
     background-color: #6f0009;
+    margin-left: -7%;
 }
 .left-nav{
     display: flex;
@@ -92,4 +105,47 @@ a:hover{
 }
 .left-nav:hover{
     background-color: #e60013af;
+}
+
+/* ------------Container image ---------------- */
+
+.container-img{
+    margin: 5px;
+    width: 65%;
+    height: 340vh;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 12% 12% 12% 12% 12% 12% 12% 12%;
+}
+.container-img img{
+    border-radius: 2%;
+    margin: 2px;
+    max-width: 99%;
+    max-height: 99%;
+    transition: transform 0.3s ease-out;
+}
+.container-img img:hover{
+    transform: translateY(-10px);
+}
+#kirby1{
+    grid-area: 1/1/3
+}
+#kirby2{
+
+    grid-area: 1/2/1 
+}
+#pokemon1{
+    grid-area: 1/3/1;
+}
+#pokemon2{
+    grid-area: 2/2/2/4;
+}
+#mario {
+    grid-area: 3/1
+}
+#metroid{
+    grid-area: 3/2
+}
+#cerebral{
+    grid-area: 3/3;
 }
