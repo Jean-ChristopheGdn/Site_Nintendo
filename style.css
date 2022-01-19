@@ -15,6 +15,7 @@ nav {
     width: 100%;
     height: 10vh;
     margin-top: -10vh;
+    z-index: 1;
 }
 .logo{
     display: flex;
@@ -112,9 +113,9 @@ a:hover{
 .container-img{
     margin: 5px;
     width: 65%;
-    height: 340vh;
+    height: 348vh;
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 12% 12% 12% 12% 12% 12% 12% 12%;
 }
 .container-img img{
@@ -148,4 +149,26 @@ a:hover{
 }
 #cerebral{
     grid-area: 3/3;
+}
+
+/* ----------------Aside last news ----------- */
+.last-news{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin-top: 2%;
+    background-color: white;
+    width: 99%;
+    height: 8vh;
+}
+.title h2{
+   vertical-align: middle;
+}
+.article{
+    margin-top: 1%;
+    background-color: white;
+    width: 99%;
+    height: 20vh;
 }
