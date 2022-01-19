@@ -66,4 +66,30 @@ a{
     text-align: center;
     font-size: 0.7em;
     color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* ------------------Left aside -----------------------*/
+
+.left-aside {
+    width: 7%;
+    height: 90vh;
+    background-color: #6f0009;
+}
+.left-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e60012;
+    margin: 0px 0 1px 0;
+    height: 12vh;
+    width: 100%;
+    font-size: 18px;
+}
+.left-nav:hover{
+    background-color: #e60013af;
 }
