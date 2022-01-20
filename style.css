@@ -213,6 +213,8 @@ footer{
     width: 60%;
     height: 70%;
     background-color: #bf0010;
+    display: flex;
+    flex-direction: column;
 }
 .logo-footer{
     display: flex;
@@ -221,4 +223,36 @@ footer{
 }
 .logo-footer img{
         width: 17%;
+}
+
+.links{
+    margin-top: 10px;
+    height: 40%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 30%;
+}
+.links a {
+
+    margin-right: 30px;
+}
+.policy{
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.policy a {
+    color: #fff;
+    font-size: .857rem;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.copyright{
+    height: 20%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
