@@ -9,6 +9,7 @@ html {
 }
 body{
     font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #eee;
 }
 
     /* --------------------------Nav bar ----------------------------- */
@@ -84,7 +85,6 @@ a:hover{
 .content{
     margin-top: 10vh;
     margin-left: 7%;
-    background-color: #eee;
     display: flex;
     flex-direction: row;
 }
@@ -155,7 +155,7 @@ a:hover{
     flex-direction: column;
 }
 .title{
-    margin-top: 2%;
+    margin-top: 8px;
     background-color: white;
     width: 99%;
     height: 8vh;
@@ -168,7 +168,7 @@ a:hover{
 .article{
     display: flex;
     flex-direction: row;
-    margin-top: 1%;
+    margin-top: 5px;
     background-color: white;
     width: 99%;
     height: auto;
@@ -193,13 +193,69 @@ a:hover{
 .resume{
     font-size: .9286rem;
 }
+/* ----------------- Social Media --------------------------- */
 
+.container-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0 2% 0;
+    margin-left: 7.2%;
+    width: 60%;
+    height: 100px;
+    background-color: #333;
+}
+.txt-share{
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.button-share{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b5998;
+    border-radius: 5px;
+    width: 35%;
+}
+.facebook img{
+    width: 20%;
+}
+.facebook a{
+    width: 80%;
+    font-size: 1em;
+    color: white;
+}
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55acee;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 35%;
+}
+.twitter img{
+    width: 20%;
+}
+.twitter a{
+    width: 80%;
+    font-size: 1em;
+    color: white;
+}
 /* ---------------FOOTER---------------------- */
 
 footer{
     width: 100%;
     height: 25vh;
-    background-color: #eee;
 }
 .top-footer {
     margin-left: 7.2%;
