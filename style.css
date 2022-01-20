@@ -112,45 +112,33 @@ a:hover{
 
 .container-img{
     margin: 5px;
-    width: 65%;
-    height: 348vh;
+    width: 66%;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 12% 12% 12% 12% 12% 12% 12% 12%;
+    grid-template-columns: repeat(6, 1fr);
 }
 .container-img img{
     border-radius: 2%;
-    margin: 2px;
+    padding: 2px;
     max-width: 99%;
     max-height: 99%;
     transition: transform 0.3s ease-out;
+    grid-column: span 2;
 }
 .container-img img:hover{
     transform: translateY(-10px);
 }
-#kirby1{
-    grid-area: 1/1/3
+.portrait{
+    grid-row: span 2;
 }
-#kirby2{
-
-    grid-area: 1/2/1 
+.container-img .paysage {
+    grid-column: span 4;
 }
-#pokemon1{
-    grid-area: 1/3/1;
+.container-img .animal{
+    grid-column: span 3;
 }
-#pokemon2{
-    grid-area: 2/2/2/4;
+.container-img .nintendoStore{
+    grid-column: span 6;
 }
-#mario {
-    grid-area: 3/1
-}
-#metroid{
-    grid-area: 3/2
-}
-#cerebral{
-    grid-area: 3/3;
-}
-
 /* ----------------Aside last news ----------- */
 .last-news{
     width: 35%;
