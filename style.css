@@ -389,4 +389,13 @@ footer{
     .last-news{
         width: 100%;
     }
+    .container-social{
+        width: 100%;
+    }
+    .top-footer{
+        width: 100%;
+    }
+    .down-footer{
+        width: 100%;
+    }
 }
