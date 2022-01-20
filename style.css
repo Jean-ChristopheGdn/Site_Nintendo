@@ -377,3 +377,16 @@ footer{
     justify-content: flex-end;
     margin-right: 20px;
 }
+
+@media (max-width: 950px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-img{
+        width: 100%;
+    }
+    .last-news{
+        width: 100%;
+    }
+}
