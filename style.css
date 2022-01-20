@@ -194,6 +194,47 @@ a:hover{
 .resume{
     font-size: .9286rem;
 }
+.btn-more{
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.btn-more a{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.btn-more img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.btn-more-games{
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.btn-more-games a{
+    color:#bf0010;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.btn-more-games img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
 /* ----------------- Social Media --------------------------- */
 
 .container-social{
@@ -306,7 +347,7 @@ footer{
 }
 
 .links{
-    margin-top: 3%;
+        margin-top: 3%;
     height: 40%;
     color: #fff;
     font-weight: 600;
